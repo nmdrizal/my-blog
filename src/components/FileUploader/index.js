@@ -9,6 +9,8 @@ export const FileUploader = ({onSuccess}) => {
     //used to get excel from others
     var [excel,setExcel]=useState([]);
 
+    var name="hi";
+
     var excelfile;
     var fileReader;
     var bufferArray;
